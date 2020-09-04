@@ -67,4 +67,5 @@ gem 'jquery-rails'
 
 gem 'bootstrap'
 
-gem "aws-sdk-s3", require: false
+gem 'aws-sdk', '~> 1'
+gem 'aws-sdk-resources', '~> 2'
